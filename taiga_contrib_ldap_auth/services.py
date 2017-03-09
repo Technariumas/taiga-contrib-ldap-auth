@@ -51,7 +51,7 @@ def _slugify(username: str):
     #username = username.replace('+', '-')
     #username = username.replace('@', '-')
     # example: force lower-case
-    #username = username.lower()
+    username = username.lower()
 
     return username
 
